@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Website Keren</title>
+  <link rel="stylesheet" href="struktur.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <h1 class="logo">YogiDev</h1>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="home" class="hero">
+    <h2 class="fade-in">Halo, Saya Yogi 👋</h2>
+    <p class="fade-in delay">
+      Mahasiswa Telkom University | Frontend Developer
+    </p>
+    <button class="btn" onclick="scrollToAbout()">Explore</button>
+  </section>
+
+  <section id="about" class="section hidden">
+    <h2>Tentang Saya</h2>
+    <p>
+      Saya sedang belajar HTML, CSS, JavaScript dan React.
+      Suka bikin website dan game 🎮
+    </p>
+  </section>
+
+  <section id="contact" class="section hidden">
+    <h2>Contact</h2>
+    <p>Email: yogi@email.com</p>
+  </section>
+
+  <script src="sbjs.js"></script>
+</body>
+</html>
